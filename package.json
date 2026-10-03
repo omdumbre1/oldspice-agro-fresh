@@ -1,0 +1,28 @@
+{
+  "name": "oldspice-agro-fresh",
+  "version": "2.0.0",
+  "description": "Old Spice Agro Fresh LLP - India's Premier Certified Organic Produce & Global Agro-Export Collective",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.4",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^11.18.2",
+    "lenis": "^1.1.20",
+    "lucide-react": "^0.475.0",
+    "next": "^14.2.23",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  }
+}

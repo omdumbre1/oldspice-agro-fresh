@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Lenis recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Custom base styles */
+body {
+  color: #1a241b;
+  background-color: #fcfbf7;
+  font-family: var(--font-sans);
+  selection-background-color: #1ecd56;
+}
+
+::selection {
+  background-color: rgba(30, 205, 86, 0.25);
+  color: #0f381e;
+}
+
+/* Custom utility for pausing marquee on hover */
+.pause-hover:hover {
+  animation-play-state: paused;
+}
